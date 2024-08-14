@@ -1,0 +1,90 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 140%;
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(0, 0, 255);
+    font-size: 200%;
+    text-align: center;
+}
+
+h2{
+    font-size: 175%;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+a{
+    font-size: 150%;
+    text-decoration: none;
+    width: 10rem;
+    height: auto ;
+}
+
+.Logo-principal{
+    
+    width: 10%;
+    height: auto;
+}
+
+.imagenprincipal{
+
+    width: 50%;
+    height: auto;
+   
+   
+}
+
+
+
+
+input{
+    font-size: 100%;
+    text-align: center;
+}
+
+strong{
+    color: rgb(0, 0, 255);
+}
+
+
+
+.menu{
+    display: flex;
+
+    justify-content: right;
+}
+
+.imagenprincipal{
+    width: 80%;
+    height: auto;
+    margin-left: 7rem;
+}
+
+.contenedor-imagenes-principales{
+    display: flex;
+    gap: 15rem;
+}
+
+.imagensudamerica{
+
+    width:350px;
+    height: 350px;
+}
+
+.bandera-españa{
+    width:350px;
+    height: 350px;
+}
+    
+.imageneuropa{
+    width:350px;
+    height: 350px;
+    margin: 1rem ;
+}
