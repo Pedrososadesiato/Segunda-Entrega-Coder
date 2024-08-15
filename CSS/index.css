@@ -46,7 +46,7 @@
     
     .Logo-principal{
         
-        width: 15%;
+        width: 20%;
         height: auto;
     }
 
@@ -207,7 +207,7 @@
 
     .Logo-principal{
         
-        width: 20%;
+        width: 10%;
         height: auto;
     }
 
@@ -245,6 +245,10 @@
     .imageneuropa{
         width:60%;
         height: auto;
+    }
+
+    h1, h2, p {
+        text-align: center;
     }
 }
     
