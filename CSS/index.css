@@ -64,61 +64,114 @@
     
     
     
-    .menu{
-        display: flex;
-        
-        justify-content: right;
-    }
+
     
     .imagenprincipal{
-        width: 100%;
+        width: 50%;
         height: auto;
         margin-left: 0;
+        
+    }
+
+    .primera-imagen {
         text-align: center;
     }
     
     .contenedor-imagenes-principales{
         display: flex;
-        flex-wrap: wrap;
+        
         flex-direction: column;
-        margin-left: 0;
-        align-items: center;
+    align-items: center;
         justify-content: space-between;
         
         
     }
     
-    .contenedor-imagenes-principales img{
-        
-    }
-    
+  
     
     .imagensudamerica{
-        margin-right: 0;
-        
+        width: 150%;
+        height: auto;
     }
     
     .bandera-españa{
-        width: 100%;
-        height: 100%;
+        width: 150%;
+        height: 150px;
         
     }
     
     .imageneuropa{
-        width:200px;
-        height: 200px;
-        margin: 0 ;
+        width:150%;
+        height: auto;
     }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {
 
+    header{
+        display: flex;
+    flex-direction: column;
+        background-image: url(../imagenes/backgroud-index.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .Logo-principal{
+        
+        width: 20%;
+        height: auto;
+    }
 
+    .imagenprincipal{
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    .primera-imagen {
+        text-align: center;
+    }
+    
 }
 
 @media only screen and (min-width: 961px) {
 
 
+
+    header{
+        display: flex;
+    flex-direction: column;
+        background-image: url(../imagenes/backgound-index-compu.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-size: cover;
+    }
+
+    .Logo-principal{
+        
+        width: 20%;
+        height: auto;
+    }
+
+    .imagenprincipal{
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    .primera-imagen {
+        text-align: center;
+    }
+    
 }
     
     

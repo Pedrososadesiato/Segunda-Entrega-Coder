@@ -21,4 +21,9 @@ header{
 .solicitud-cotizacion {
     font-size: 30px;
     color: #ff0000;
+    
+}
+
+p {
+    text-align: center;
 }
