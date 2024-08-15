@@ -12,7 +12,7 @@
         background-image: url(../imagenes/Imagen\ principal\ de\ una\ playa.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        justify-content: space-between;
+        align-items: space-between;
         height: 50vh;
         width: 100%;
         margin-bottom: 2rem;
@@ -79,7 +79,7 @@
     
     .contenedor-imagenes-principales{
         display: flex;
-        
+        flex-wrap: wrap;
         flex-direction: column;
     align-items: center;
         justify-content: space-between;
@@ -110,7 +110,8 @@
 
     header{
         display: flex;
-    flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         background-image: url(../imagenes/backgroud-index.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -131,6 +132,52 @@
         margin-left: 0;
         
     }
+
+    .contenedor-imagenes-principales{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        
+    }
+    
+    .imagensudamerica{
+        width: 250px;
+        height: 225px;
+    }
+    
+    .bandera-españa{
+        width: 250px;
+        height: auto;
+        margin-left: 2rem;
+        
+    }
+    
+    .imageneuropa{
+        width:250px;
+        height: 150 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .imagensudamerica{
+        width: 200px;
+        height: 130px;
+    }
+    
+    .bandera-españa{
+        width: 175px;
+        height: auto;
+        
+    }
+    
+    .imageneuropa{
+        width:200px;
+        height: 130px;
+    }
+    
 
     .primera-imagen {
         text-align: center;
@@ -172,6 +219,30 @@
         text-align: center;
     }
     
+    .contenedor-imagenes-principales{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .imagensudamerica{
+        width: 60%;
+        height: auto;
+    }
+    
+    .bandera-españa{
+        width: 60%;
+        height: auto;
+        margin: 2rem;
+        
+    }
+    
+    .imageneuropa{
+        width:60%;
+        height: auto;
+    }
 }
     
     
