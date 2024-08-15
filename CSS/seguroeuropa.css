@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/background-europa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100%;
+}
+
+.Logo-principal{
+        
+    width: 10%;
+    height: auto;
+}
+
+.imagen-coliseo{
+    
+    margin: 3rem;
+    
+}
+
+.coliseo, h1, h2, p {
+    text-align: center;
+}

@@ -7,11 +7,15 @@
     
     
     header{
+        display: flex;
+    flex-direction: column;
         background-image: url(../imagenes/Imagen\ principal\ de\ una\ playa.jpg);
         background-repeat: no-repeat;
         background-position: center;
+        justify-content: space-between;
         height: 50vh;
         width: 100%;
+        margin-bottom: 2rem;
     }
     
     
@@ -45,6 +49,8 @@
         width: 20%;
         height: auto;
     }
+
+    
     
     
     input{
