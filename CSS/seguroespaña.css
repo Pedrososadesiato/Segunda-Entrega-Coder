@@ -1,7 +1,7 @@
 header{
     display: flex;
     flex-direction: column;
-    background-image: url(../imagenes/la\ gran\ via\ de\ madrid.jpg);
+    background-image: url(../imagenes/la-gran-via-de-madrid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
