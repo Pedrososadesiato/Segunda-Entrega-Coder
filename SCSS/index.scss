@@ -1,0 +1,255 @@
+@media only screen and (max-width: 500px) {
+
+    
+    *{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    header{
+        display: flex;
+    flex-direction: column;
+        background-image: url(../imagenes/Imagen-principal-de-una-playa.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: space-between;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    
+    p{
+        font-size: 140%;
+        text-align: center;
+        
+    }
+    
+    h1{
+        color: rgb(0, 0, 255);
+        font-size: 200%;
+        text-align: center;
+    }
+    
+    h2{
+        font-size: 175%;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+    
+    a{
+        font-size: 150%;
+        text-decoration: none;
+        width: 10rem;
+        height: auto ;
+    }
+    
+    .Logo-principal{
+        
+        width: 20%;
+        height: auto;
+    }
+
+    
+    
+    
+    input{
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    strong{
+        color: rgb(0, 0, 255);
+    }
+    
+    
+    
+
+    
+    .imagenprincipal{
+        width: 50%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    .primera-imagen {
+        text-align: center;
+    }
+    
+    .contenedor-imagenes-principales{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+  
+    
+    .imagensudamerica{
+        width: 150%;
+        height: auto;
+    }
+    
+    .bandera-españa{
+        width: 150%;
+        height: 150px;
+        
+    }
+    
+    .imageneuropa{
+        width:150%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../imagenes/backgroud-index.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: space-between;
+        height: 50vh;
+        width: 100%;
+    }
+    
+    p, h1, h2 {
+        text-align: center;
+    }
+    .Logo-principal{
+        
+        width: 15%;
+        height: auto;
+    }
+
+    .imagenprincipal{
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    .contenedor-imagenes-principales{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        
+    }
+    
+    .imagensudamerica{
+        width: 250px;
+        height: 225px;
+    }
+    
+    .bandera-españa{
+        width: 250px;
+        height: auto;
+        margin-left: 2rem;
+        
+    }
+    
+    .imageneuropa{
+        width:250px;
+        height: 150 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .imagensudamerica{
+        width: 200px;
+        height: 130px;
+    }
+    
+    .bandera-españa{
+        width: 175px;
+        height: auto;
+        
+    }
+    
+    .imageneuropa{
+        width:200px;
+        height: 130px;
+    }
+    
+
+    .primera-imagen {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 961px) {
+
+
+
+    header{
+        display: flex;
+    flex-direction: column;
+        background-image: url(../imagenes/backgound-index-compu.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: space-between;
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-size: cover;
+    }
+
+    .Logo-principal{
+        
+        width: 10%;
+        height: auto;
+    }
+
+    .imagenprincipal{
+        width: 60%;
+        height: auto;
+        margin-left: 0;
+        
+    }
+
+    .primera-imagen {
+        text-align: center;
+    }
+    
+    .contenedor-imagenes-principales{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .imagensudamerica{
+        width: 60%;
+        height: auto;
+    }
+    
+    .bandera-españa{
+        width: 60%;
+        height: auto;
+        margin: 2rem;
+        
+    }
+    
+    .imageneuropa{
+        width:60%;
+        height: auto;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+}
+    
+    
